@@ -1,4 +1,4 @@
-const gestionarCategoriaService = require('../service/gestionarCategorias.service');
+const gestionarCategoriaService = require('../service/gCategorias.service');
 
 const router = require('express').Router();
 
@@ -15,6 +15,9 @@ router.get('/getNombreA/:nombreA', gestionarCategoriaService.getCategoriaByNombr
 router.put('/:id', gestionarCategoriaService.editCategoria);
 
 router.delete('/:id', gestionarCategoriaService.deleteCategoria);
+
+router.delete('/:id', gestionarCategoriaService.deleteCategoria);
+
 
 module.exports = router;
 //gestionarCategoriass

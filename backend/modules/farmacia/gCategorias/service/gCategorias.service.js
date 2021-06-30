@@ -1,5 +1,5 @@
 //requerimos el esquema qu model de la BD mongo
-var gestionarCategoriaModel = require('../model/gestionarCategorias.model');
+var gestionarCategoriaModel = require('../model/gCategorias.model');
 
 const gestionarCategoriaService = {};
 

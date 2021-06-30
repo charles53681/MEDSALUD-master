@@ -13,6 +13,6 @@ var categoriaSchema = new Schema({ //Creamos el esquema estructura de datos de l
 }, {
     versionKey: false //Cuando creamos un objeto no agregue un gion campo sub guion sub guion
 });
-
+//xd;
 var model = mongoose.model('GestionarCategorias', categoriaSchema);
 module.exports = model;
